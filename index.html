@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome | Jenkins Deployment Test</title>
+  <style>
+    /* ===== Reset & Base ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #007bff, #00c6ff);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    /* ===== Card Container ===== */
+    .card {
+      background: #ffffff1a;
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      padding: 40px 50px;
+      width: 90%;
+      max-width: 500px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    /* ===== Title ===== */
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    /* ===== Subtitle ===== */
+    p {
+      font-size: 1rem;
+      margin-bottom: 25px;
+      color: #e2e2e2;
+    }
+
+    /* ===== Button ===== */
+    .btn {
+      display: inline-block;
+      padding: 12px 28px;
+      background: #fff;
+      color: #007bff;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #007bff;
+      color: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      margin-top: 25px;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🚀 Jenkins Deployment Successful!</h1>
+    <p>Your landing page is live and running perfectly.</p>
+    <a href="#" class="btn">Explore More</a>
+    <footer>Powered by Jenkins CI/CD</footer>
+  </div>
+</body>
+</html>
